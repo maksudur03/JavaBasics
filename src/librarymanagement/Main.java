@@ -66,12 +66,29 @@ public class Main {
 
         // use StringBuilder -> read, ask question, understand then implement ?
 
+        StringBuilder screen = new StringBuilder(50);
+        StringBuilder welcome = new StringBuilder("Welcome to Library\n");
+        StringBuilder bookAdd = new StringBuilder("1.ADD BOOK\n");
+        StringBuilder bookList = new StringBuilder("2.SEE BOOK LIST\n");
+        StringBuilder removeBook = new StringBuilder("3.REMOVE BOOK\n");
+        StringBuilder option = new StringBuilder("4.MENU\nPress the adjacent number");
+        screen.append(welcome);
+        screen.append(bookAdd);
+        screen.append(bookList);
+        screen.append(removeBook);
+        screen.append(option);
+        System.out.println(screen);
+
+
+        /*
         System.out.println("Welcome to Library\n" +
                 "1.ADD BOOK\n" +
                 "2.SEE BOOK LIST\n" +
                 "3.REMOVE BOOK\n" +
                 "4.MENU\n" +
                 "Press the adjacent number");
+
+         */
     }
 }
 
