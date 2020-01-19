@@ -1,0 +1,4 @@
+Polymorphism:Different behaviour under different scenario.Method overloading, method overriding
+Inheritence:one class getting the behaviours from another class
+Encapsulation:protecting data integrity. fields are made private but public getter methods are used to access private fields
+Abstraction:using simple things to represent complexity.helps avoid repeataion.skeleteon to create more objects
