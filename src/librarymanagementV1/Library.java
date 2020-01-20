@@ -1,4 +1,4 @@
-package librarymanagement;
+package librarymanagementV1;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
@@ -11,7 +11,7 @@ public class Library implements Validation,RangeCheck {
     Scanner scanner = new Scanner(System.in);
 
 
-    public void addBook() {
+    public void addBook(){
         Book book = new Book();
         long uncheckedId = 0;
         double uncheckedPrice = 0;
@@ -50,9 +50,11 @@ public class Library implements Validation,RangeCheck {
         for (Book book : list) { // for-each, for-loop. while-loop ? less priority
             System.out.println("ID:" + book.getId() + " NAME:" + book.getName() + " Author:" + book.getAuthor() + '\n');
         }
+        System.out.println();
     }
 
     public void removeBook(long id) {
+
         ListIterator<Book> itr = list.listIterator(); // ListIterator ?
         while (itr.hasNext()) {
             if (itr.next().getId() == id)

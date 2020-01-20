@@ -1,4 +1,4 @@
-package librarymanagement;
+package librarymanagementV1;
 
 import java.util.Scanner;
 
@@ -36,6 +36,7 @@ public class main2 {
                 }
 
                 case "3": {
+                    lib.showBookList();
                     System.out.println("Enter the ID of book you want to delete");
                     long id = scan.nextLong();
                     lib.removeBook(id);
@@ -133,4 +134,5 @@ public class main2 {
             showSubMenu(subMenuInput);
         }
     }
+
 }
