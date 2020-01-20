@@ -3,44 +3,22 @@ package librarymanagementV2;
 import java.util.InputMismatchException;
 import java.util.ListIterator;
 
+import static librarymanagementV2.Library.getBookList;
+
 public class Librarian {
-    BookAuthenticator bookAuthenticator = new BookAuthenticator();
-    public Book takingInputForBook(){
-        Book book = new Book();
-        long uncheckedId = 0;
-        double uncheckedPrice = 0;
-        String uncheckedAuthor;
-        String uncheckedContent;
+    LibrarianAssistant librarianAssistant = new LibrarianAssistant();
 
-        boolean hasRepeat = false;
-        System.out.println("ENTER BOOK ID");
-        while (!hasRepeat) {
-            uncheckedId = bookAuthenticator.idValidation();
-            hasRepeat = bookAuthenticator.checkForRepetition(uncheckedId);
-        }
-        book.setId(uncheckedId);
+    public void addBooktoList(){
+        Book bookToBeAdded;
+        bookToBeAdded=librarianAssistant.takingInputForBook();
+        getBookList().add(bookToBeAdded);
 
-        System.out.println("ENTER BOOK NAME");
-        book.setName(Library.scanner.next());
-
-        System.out.println("ENTER BOOK AUTHOR");
-        uncheckedAuthor=bookAuthenticator.authorRangeCheck();
-        book.setAuthor(uncheckedAuthor);
-
-        System.out.println("ENTER BOOK CONTENT");
-        uncheckedContent=bookAuthenticator.contentRangeCheck();
-        book.setContent(uncheckedContent);
-
-        System.out.println("ENTER BOOK PRICE");
-        uncheckedPrice = bookAuthenticator.priceValidation();
-        book.setPrice(uncheckedPrice);
-
-        return book;
-
+        System.out.println(bookToBeAdded.showBook(bookToBeAdded.getId()) + "\n");
     }
+
     public void removeBook(long id) {
 
-        ListIterator<Book> itr = Library.getBookList().listIterator(); // ListIterator ?
+        ListIterator<Book> itr = getBookList().listIterator(); // ListIterator ?
         while (itr.hasNext()) {
             if (itr.next().getId() == id)
                 itr.remove();

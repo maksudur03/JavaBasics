@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5a48d1e-9730-4e1c-882f-667b997fcf7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/librarymanagementV1/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/librarymanagementV2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/librarymanagementV2/BookAuthenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/librarymanagementV2/Librarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/librarymanagementV2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/librarymanagementV2/RangeCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/librarymanagementV2/Validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/librarymanagementV2/LibrarianAssistant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagement/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagement/Library.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagement/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagement/RangeCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagement/Validation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagement/main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/librarymanagement/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV1/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/librarymanagement/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV2/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/librarymanagement/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/librarymanagement/RangeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV1/RangeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/librarymanagement/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV1/Validation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/librarymanagement/main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV1/main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/BookAuthenticator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/BookAuthenticator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/Librarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/Librarian.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/librarymanagementV2/BookAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV2/BookAuthenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/librarymanagementV2/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV2/Librarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/librarymanagementV2/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV2/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/librarymanagementV2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +57,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="librarymanagementV1.Main" />
       <module name="BasicsfromAS" />
@@ -236,36 +226,36 @@
     </state>
     <state x="458" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1578994667323" />
     <state x="458" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1579076630412" />
-    <state width="1367" height="138" key="GridCell.Tab.0.bottom" timestamp="1579523909042">
+    <state width="1367" height="138" key="GridCell.Tab.0.bottom" timestamp="1579527584416">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579377357860" />
     <state width="1398" height="178" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579165968255" />
-    <state width="1367" height="138" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1579523909042" />
+    <state width="1367" height="138" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1579527584416" />
     <state width="1366" height="178" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1579161409600" />
     <state width="1366" height="178" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1579159834257" />
-    <state width="1367" height="138" key="GridCell.Tab.0.center" timestamp="1579523909041">
+    <state width="1367" height="138" key="GridCell.Tab.0.center" timestamp="1579527584415">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579377357860" />
     <state width="1398" height="178" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579165968254" />
-    <state width="1367" height="138" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1579523909041" />
+    <state width="1367" height="138" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1579527584415" />
     <state width="1366" height="178" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1579161409599" />
     <state width="1366" height="178" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1579159834255" />
-    <state width="1367" height="138" key="GridCell.Tab.0.left" timestamp="1579523909041">
+    <state width="1367" height="138" key="GridCell.Tab.0.left" timestamp="1579527584415">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579377357860" />
     <state width="1398" height="178" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579165968253" />
-    <state width="1367" height="138" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1579523909041" />
+    <state width="1367" height="138" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1579527584415" />
     <state width="1366" height="178" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1579161409599" />
     <state width="1366" height="178" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1579159834254" />
-    <state width="1367" height="138" key="GridCell.Tab.0.right" timestamp="1579523909042">
+    <state width="1367" height="138" key="GridCell.Tab.0.right" timestamp="1579527584415">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579377357860" />
     <state width="1398" height="178" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579165968254" />
-    <state width="1367" height="138" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1579523909042" />
+    <state width="1367" height="138" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1579527584415" />
     <state width="1366" height="178" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1579161409599" />
     <state width="1366" height="178" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1579159834256" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1579011539688">
@@ -312,11 +302,6 @@
           <url>file://$PROJECT_DIR$/src/librarymanagementV1/Main.java</url>
           <line>69</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/librarymanagementV2/Main.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

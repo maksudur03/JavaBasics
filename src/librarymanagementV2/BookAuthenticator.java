@@ -3,7 +3,7 @@ package librarymanagementV2;
 import java.util.InputMismatchException;
 import java.util.ListIterator;
 
-public class BookAuthenticator {
+public class BookAuthenticator implements RangeCheck,Validation{
 
     public String contentRangeCheck() {
         String content;
