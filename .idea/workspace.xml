@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5a48d1e-9730-4e1c-882f-667b997fcf7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapractise/string/string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractise/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/librarymanagement/RangeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/librarymanagement/Validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/librarymanagement/main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/javapractise/string/string.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsfromAS/javapractise/string/string.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagement/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagement/Library.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagement/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagement/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapractise/string/string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapractise/string/string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/librarymanagement/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagement/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/librarymanagement/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagement/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,20 +53,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractise.foreach.ForEach" />
-      <module name="BasicsfromAS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javapractise.foreach.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.main2">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javapractise.listoptimize.Main" />
       <module name="BasicsfromAS" />
@@ -80,7 +72,7 @@
       <module name="BasicsfromAS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="librarymanagement.*" />
+          <option name="PATTERN" value="javapractise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,6 +132,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="librarymanagement.main2" />
+      <module name="BasicsfromAS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="string" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javapractise.string.string" />
       <module name="BasicsfromAS" />
@@ -155,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.main2" />
         <item itemvalue="Application.string" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Scan" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.ForEach" />
       </list>
     </recent_temporary>
   </component>
@@ -197,11 +202,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="453" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1579164954331" />
-    <state x="533" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1579411661386">
+    <state x="533" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1579512496198">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="533" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1579092162794" />
-    <state x="533" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1579411661386" />
+    <state x="533" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1579512496198" />
     <state x="533" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1440.800@0.23.1440.800" timestamp="1578922762935" />
     <state x="563" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579411252678">
       <screen x="0" y="23" width="1440" height="797" />
@@ -217,36 +222,36 @@
     </state>
     <state x="458" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1578994667323" />
     <state x="458" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1579076630412" />
-    <state width="1367" height="138" key="GridCell.Tab.0.bottom" timestamp="1579423507102">
+    <state width="1367" height="138" key="GridCell.Tab.0.bottom" timestamp="1579514025076">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579377357860" />
     <state width="1398" height="178" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579165968255" />
-    <state width="1367" height="138" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1579423507102" />
+    <state width="1367" height="138" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1579514025076" />
     <state width="1366" height="178" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1579161409600" />
     <state width="1366" height="178" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1579159834257" />
-    <state width="1367" height="138" key="GridCell.Tab.0.center" timestamp="1579423507101">
+    <state width="1367" height="138" key="GridCell.Tab.0.center" timestamp="1579514025075">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579377357860" />
     <state width="1398" height="178" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579165968254" />
-    <state width="1367" height="138" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1579423507101" />
+    <state width="1367" height="138" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1579514025075" />
     <state width="1366" height="178" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1579161409599" />
     <state width="1366" height="178" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1579159834255" />
-    <state width="1367" height="138" key="GridCell.Tab.0.left" timestamp="1579423507101">
+    <state width="1367" height="138" key="GridCell.Tab.0.left" timestamp="1579514025075">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579377357860" />
     <state width="1398" height="178" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579165968253" />
-    <state width="1367" height="138" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1579423507101" />
+    <state width="1367" height="138" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1579514025075" />
     <state width="1366" height="178" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1579161409599" />
     <state width="1366" height="178" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1579159834254" />
-    <state width="1367" height="138" key="GridCell.Tab.0.right" timestamp="1579423507101">
+    <state width="1367" height="138" key="GridCell.Tab.0.right" timestamp="1579514025075">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579377357860" />
     <state width="1398" height="178" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579165968254" />
-    <state width="1367" height="138" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1579423507101" />
+    <state width="1367" height="138" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1579514025075" />
     <state width="1366" height="178" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1579161409599" />
     <state width="1366" height="178" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1579159834256" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1579011539688">
@@ -272,21 +277,26 @@
     <state x="233" y="107" width="1016" height="597" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.797@0.23.1440.797" timestamp="1578982664240" />
     <state x="233" y="107" width="1016" height="599" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.798@0.23.1440.798" timestamp="1579073645852" />
     <state x="233" y="107" width="1016" height="599" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.801@0.23.1440.801" timestamp="1579073561161" />
+    <state x="473" y="182" width="531" height="482" key="extract.method.dialog" timestamp="1579501745307">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="473" y="182" width="531" height="482" key="extract.method.dialog/0.23.1440.797@0.23.1440.797" timestamp="1579501745307" />
     <state x="427" y="65" key="refactoring.ChangeSignatureDialog" timestamp="1578997877844">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="427" y="65" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1578997877844" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1578998371765">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="385" y="197" width="670" height="599" key="search.everywhere.popup" timestamp="1579512017003">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578998371765" />
+    <state x="385" y="197" width="670" height="599" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1579512017003" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/librarymanagement/Main.java</url>
-          <line>92</line>
+          <line>69</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

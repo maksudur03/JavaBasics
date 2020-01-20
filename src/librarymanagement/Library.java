@@ -5,7 +5,7 @@ import java.util.InputMismatchException;
 import java.util.ListIterator;
 import java.util.Scanner;
 
-public class Library {
+public class Library implements Validation,RangeCheck {
 
     private ArrayList<Book> list = new ArrayList<Book>();
     Scanner scanner = new Scanner(System.in);
@@ -16,13 +16,13 @@ public class Library {
         long uncheckedId = 0;
         double uncheckedPrice = 0;
         String uncheckedAuthor;
-        String uncheckedContent=null;
+        String uncheckedContent;
 
         boolean hasRepeat = false;
         System.out.println("ENTER BOOK ID");
         while (!hasRepeat) {
             uncheckedId = idValidation();
-            hasRepeat = checkForRepeatation(uncheckedId);
+            hasRepeat = checkForRepetition(uncheckedId);
         }
         book.setId(uncheckedId);
 
@@ -58,6 +58,8 @@ public class Library {
             if (itr.next().getId() == id)
                 itr.remove();
         }
+        System.out.println("Showing list of books after deletion\n");
+        showBookList();
     }
 
     public String selectBook(long id) {
@@ -69,7 +71,7 @@ public class Library {
         return "Not found";
     }
 
-    public boolean checkForRepeatation(long id) {
+    public boolean checkForRepetition(long id) {
         for (Book book : list) {
             if (id == book.getId()) {
                 System.out.println("This ID already exists.Give another ID");

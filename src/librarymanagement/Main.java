@@ -29,8 +29,6 @@ public class Main {
                     if (sc.next().charAt(0) == 'x') {
                         lib.removeBook(checkId);
                     }
-                    System.out.println("Showing list of books after deletion\n");
-                    lib.showBookList();
                     System.out.println("Press 4 to go to menu\nPress 0 to Exit");
                     input = sc.next();
                     break;
@@ -39,8 +37,6 @@ public class Main {
                     System.out.println("Enter the ID of book you want to delete");
                     long id = sc.nextLong();
                     lib.removeBook(id);
-                    System.out.println("Showing list of books after deletion\n");
-                    lib.showBookList();
                     System.out.println("Press 4 to go to menu\nPress 0 to Exit");
                     input = sc.next();
                     break;
@@ -55,40 +51,21 @@ public class Main {
                     break;
                 }
                 default: {
-                    System.out.println("Invalid Input\nTry Again");
-                    input = sc.next();
+                    System.out.println("Invalid Input.");
+                    input="4";
                 }
             }
         }
     }
 
     private static void showMenu() {
-
         // use StringBuilder -> read, ask question, understand then implement ?
-
-        StringBuilder screen = new StringBuilder(50);
-        StringBuilder welcome = new StringBuilder("Welcome to Library\n");
-        StringBuilder bookAdd = new StringBuilder("1.ADD BOOK\n");
-        StringBuilder bookList = new StringBuilder("2.SEE BOOK LIST\n");
-        StringBuilder removeBook = new StringBuilder("3.REMOVE BOOK\n");
-        StringBuilder option = new StringBuilder("4.MENU\nPress the adjacent number");
-        screen.append(welcome);
-        screen.append(bookAdd);
-        screen.append(bookList);
-        screen.append(removeBook);
-        screen.append(option);
+        StringBuilder screen = new StringBuilder("Welcome to Library\n")
+                .append("1.ADD BOOK\n")
+                .append("2.SEE BOOK LIST\n")
+                .append("3.REMOVE BOOK\n")
+                .append("4.MENU\n0.EXIT\nPress the adjacent number");
         System.out.println(screen);
-
-
-        /*
-        System.out.println("Welcome to Library\n" +
-                "1.ADD BOOK\n" +
-                "2.SEE BOOK LIST\n" +
-                "3.REMOVE BOOK\n" +
-                "4.MENU\n" +
-                "Press the adjacent number");
-
-         */
     }
 }
 
