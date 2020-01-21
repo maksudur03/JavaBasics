@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static String menuInput = "4";
     public static Scanner scan = new Scanner(System.in);
-    public static Library lib = new Library();
+    public static Library library = new Library();
 
     public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class Main {
         while (true) { // learn more about Scanner ?
             switch (menuInput) { // difference between switch-case and if-else ? how we use && || in switch-case?
                 case "1": {
-                    lib.librarian.addBooktoList();
+                    library.librarian.addBooktoList();
                     System.out.println("Press 1 to add another book");
                     System.out.println("Press 4 to go to menu\nPress 0 to Exit");
                     subMenuInput = scan.next();
@@ -27,7 +27,8 @@ public class Main {
                     break;
                 }
                 case "2": {
-                    lib.showBookList();
+                    System.out.println("Showing list of books\n");
+                    library.showBookList();
                     System.out.println("Press 6 to read a book\nPress 4 to go to menu\nPress 0 to Exit");
                     subMenuInput = scan.next();
                     readBook(subMenuInput);
@@ -35,10 +36,10 @@ public class Main {
                 }
 
                 case "3": {
-                    lib.showBookList();
+                    library.showBookList();
                     System.out.println("Enter the ID of book you want to delete");
                     long id = scan.nextLong();
-                    lib.librarian.removeBook(id);
+                    library.librarian.removeBook(id);
                     System.out.println("Press 4 to go to menu\nPress 0 to Exit");
                     subMenuInput = scan.next();
                     showSubMenu(subMenuInput);
@@ -95,14 +96,14 @@ public class Main {
         if (subMenuInput.equals("6")) {
             System.out.println("Type the ID of the book you want to read");
             checkId = scan.nextLong();
-            System.out.println(lib.showBookDetails(checkId));
+            System.out.println(library.showBookDetails(checkId));
             System.out.println("Press 4 to go to menu\nPress 0 to Exit");
             System.out.println("Press x to delete the book");
             subMenuInput = scan.next();
             switch (subMenuInput) {
                 case "x":
                 case "X": {
-                    lib.librarian.removeBook(checkId);
+                    library.librarian.removeBook(checkId);
                     System.out.println("Press 4 to go to menu\nPress 0 to Exit");
                     subMenuInput = scan.next();
                     showSubMenu(subMenuInput);

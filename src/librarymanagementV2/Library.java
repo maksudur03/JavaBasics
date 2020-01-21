@@ -22,7 +22,6 @@ public class Library  {
     }
 
     public String showBookDetails(long id) {
-        System.out.println("Showing list of books\n");
         for (Book book : bookList) {
             if (id == book.getId()) {
                 return book.showBook(book.getId());

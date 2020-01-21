@@ -26,11 +26,14 @@ public class BookAuthenticator implements RangeCheck,Validation{
             author = Library.scanner.next();
             if (author.length() >= 5 && author.length() <= 20) {
                 break;
-            } else if (author.length() < 5) {
-                System.out.println("Author name is too small.Try Again");
+            } else {
+                if (author.length() < 5) {
+                    System.out.println("Author name is too small.Try Again");
 
-            } else if (author.length() > 20) {
-                System.out.println("Author name is too large.Try Again");
+                }
+                if (author.length() > 20) {
+                    System.out.println("Author name is too large.Try Again");
+                }
             }
         }
         return author;

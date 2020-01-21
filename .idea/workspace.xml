@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5a48d1e-9730-4e1c-882f-667b997fcf7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/librarymanagementV2/LibrarianAssistant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractise/equalsnhashcode/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/BookAuthenticator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/BookAuthenticator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/Librarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/Librarian.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsfromAS/librarymanagementV2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/librarymanagementV2/BookAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV2/BookAuthenticator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/librarymanagementV2/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV2/Librarian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/librarymanagementV2/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/librarymanagementV2/Library.java" afterDir="false" />
@@ -30,6 +31,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WKb6Yy1m1cwpNfOfONutPfJerM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,26 +42,66 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/office" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/librarymanagementV3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Office" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/librarymanagementV3" />
       <recent name="$PROJECT_DIR$/src/office" />
       <recent name="$PROJECT_DIR$/src/javapractise" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Car (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractise.instanceoftest.Car" />
+      <module name="BasicsfromAS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractise.instanceoftest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractise.equalsnhashcode.Car" />
+      <module name="BasicsfromAS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractise.equalsnhashcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="librarymanagementV2.Main" />
+      <module name="BasicsfromAS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="librarymanagementV2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="librarymanagementV1.Main" />
       <module name="BasicsfromAS" />
@@ -136,25 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="librarymanagementV1.main2" />
+    <configuration name="Primitive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractise.equalsnhashcode.Primitive" />
       <module name="BasicsfromAS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapractise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="string" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapractise.string.string" />
-      <module name="BasicsfromAS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javapractise.string.*" />
+          <option name="PATTERN" value="javapractise.equalsnhashcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,10 +195,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.main2" />
-        <item itemvalue="Application.string" />
+        <item itemvalue="Application.Primitive" />
+        <item itemvalue="Application.Car (1)" />
+        <item itemvalue="Application.Car" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -206,11 +237,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="453" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1579164954331" />
-    <state x="533" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1579521256950">
+    <state x="533" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1579598235196">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="533" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1579092162794" />
-    <state x="533" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1579521256950" />
+    <state x="533" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1579598235196" />
     <state x="533" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1440.800@0.23.1440.800" timestamp="1578922762935" />
     <state x="563" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579411252678">
       <screen x="0" y="23" width="1440" height="797" />
@@ -226,37 +257,37 @@
     </state>
     <state x="458" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1578994667323" />
     <state x="458" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1579076630412" />
-    <state width="1367" height="138" key="GridCell.Tab.0.bottom" timestamp="1579527584416">
+    <state width="639" height="138" key="GridCell.Tab.0.bottom" timestamp="1579605138566">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579377357860" />
     <state width="1398" height="178" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579165968255" />
-    <state width="1367" height="138" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1579527584416" />
-    <state width="1366" height="178" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1579161409600" />
+    <state width="639" height="138" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1579605138566" />
+    <state width="944" height="138" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1579601318008" />
     <state width="1366" height="178" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1579159834257" />
-    <state width="1367" height="138" key="GridCell.Tab.0.center" timestamp="1579527584415">
+    <state width="639" height="138" key="GridCell.Tab.0.center" timestamp="1579605138565">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579377357860" />
     <state width="1398" height="178" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579165968254" />
-    <state width="1367" height="138" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1579527584415" />
-    <state width="1366" height="178" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1579161409599" />
+    <state width="639" height="138" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1579605138565" />
+    <state width="944" height="138" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1579601318007" />
     <state width="1366" height="178" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1579159834255" />
-    <state width="1367" height="138" key="GridCell.Tab.0.left" timestamp="1579527584415">
+    <state width="639" height="138" key="GridCell.Tab.0.left" timestamp="1579605138564">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579377357860" />
     <state width="1398" height="178" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579165968253" />
-    <state width="1367" height="138" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1579527584415" />
-    <state width="1366" height="178" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1579161409599" />
+    <state width="639" height="138" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1579605138564" />
+    <state width="944" height="138" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1579601318007" />
     <state width="1366" height="178" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1579159834254" />
-    <state width="1367" height="138" key="GridCell.Tab.0.right" timestamp="1579527584415">
+    <state width="639" height="138" key="GridCell.Tab.0.right" timestamp="1579605138565">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579377357860" />
     <state width="1398" height="178" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579165968254" />
-    <state width="1367" height="138" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1579527584415" />
-    <state width="1366" height="178" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1579161409599" />
+    <state width="639" height="138" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1579605138565" />
+    <state width="944" height="138" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1579601318007" />
     <state width="1366" height="178" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1579159834256" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1579011539688">
       <screen x="0" y="0" width="1440" height="900" />
@@ -285,6 +316,11 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="473" y="182" width="531" height="482" key="extract.method.dialog/0.23.1440.797@0.23.1440.797" timestamp="1579501745307" />
+    <state x="112" y="2" key="new project wizard" timestamp="1579595063009">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="112" y="2" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1579595063009" />
+    <state x="112" y="25" key="new project wizard/0.23.1440.797@0.23.1440.797" timestamp="1579595024103" />
     <state x="427" y="65" key="refactoring.ChangeSignatureDialog" timestamp="1578997877844">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
