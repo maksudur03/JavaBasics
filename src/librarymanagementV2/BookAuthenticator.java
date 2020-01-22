@@ -3,7 +3,7 @@ package librarymanagementV2;
 import java.util.InputMismatchException;
 import java.util.ListIterator;
 
-public class BookAuthenticator {
+public class BookAuthenticator implements RangeCheck,Validation{
 
     public String contentRangeCheck() {
         String content;
@@ -26,11 +26,14 @@ public class BookAuthenticator {
             author = Library.scanner.next();
             if (author.length() >= 5 && author.length() <= 20) {
                 break;
-            } else if (author.length() < 5) {
-                System.out.println("Author name is too small.Try Again");
+            } else {
+                if (author.length() < 5) {
+                    System.out.println("Author name is too small.Try Again");
 
-            } else if (author.length() > 20) {
-                System.out.println("Author name is too large.Try Again");
+                }
+                if (author.length() > 20) {
+                    System.out.println("Author name is too large.Try Again");
+                }
             }
         }
         return author;
