@@ -11,7 +11,7 @@ public class Main2 implements  Listener{
 
     @Override
     public void ButtonOn() {
-
+        System.out.println("Button on");
     }
 
     @Override

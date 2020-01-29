@@ -35,11 +35,6 @@ public class Car {
                 Objects.equals(brand, car.brand);
     }
 
-    @Override
-    public int hashCode() {
-        return uniqueId;
-    }
-
     public static void main(String[] args) {
         Car c1= new Car("LAMBO",233);
         Car c2=new Car("audi",1111);
@@ -52,7 +47,7 @@ public class Car {
         //Firstly, == is a operator and java doesn't support operator overloading. So, == just checks if the memory address is same here.
         //== DOES NOT USE HASHCODE(we don't know how it works) and hashcode is DEFINITELY NOT MEMORY ADDRESS as we can override it
         //if we override the equals and hashcode method output we can get different output according to our implementation
-        //Implementation of native methods are hidden
+        //Implementation of native methods are hidden. obj.hashCode() is a native method if not overridden
 
     }
 }
