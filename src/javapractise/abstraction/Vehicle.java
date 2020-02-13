@@ -11,4 +11,5 @@ public interface Vehicle {
 
 //public abstract
     void brake(boolean state);
+    void gearUp();
 }

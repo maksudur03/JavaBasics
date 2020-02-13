@@ -7,15 +7,25 @@ public class Car {
     private String brand;
     private int uniqueId;
 
-    public Car(String brand, int uniqueId,String engine) {
-        this.brand = brand;
-        this.uniqueId = uniqueId;
-        this.engine=engine;
+    public Car() {
     }
 
-    public Car(String brand, int uniqueId) {
+    private Car(String brand, int uniqueId) {
         this.brand=brand;
         this.uniqueId=uniqueId;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public int move(){
+        System.out.println("moving");
+        return 4;
     }
 
     @Override
@@ -32,14 +42,16 @@ public class Car {
     public int hashCode() {
         return Objects.hash(engine, brand, uniqueId);
     }
-
     public static void main(String[] args) {
-        Car c1= new RacingCar("maruti",22);//upcasting
+        //Car c1= new RacingCar("maruti",22);//upcasting
         //RacingCar rc0 = new Car("AUDI",11);// Compilation error
-        Car c0 = new RacingCar("lambo",22);
-        RacingCar rc0= (RacingCar)c0;//DOWNCASTING
-        RacingCar rc1 = new RacingCar("maruti" ,22);//casting
-        System.out.println(rc0.getClass());
+        //Car c0 = new RacingCar("lambo",22);
+        //RacingCar rc0= (RacingCar)c0;//DOWNCASTING
+        //RacingCar rc1 = new RacingCar("maruti" ,22);//casting
+        //System.out.println(rc0.getClass());
+
+        Car cyber = new ElectricCar();
+        System.out.println(cyber.getBrand());
     }
 
 }

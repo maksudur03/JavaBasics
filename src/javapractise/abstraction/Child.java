@@ -5,4 +5,9 @@ public class Child extends Base{
     public void play(){
         System.out.println("child playing");
     }
+
+    @Override
+    void gearUp() {
+
+    }
 }
